@@ -1,0 +1,9 @@
+.block {
+  margin-bottom: 20px;
+  position: absolute;
+  top: 100px; /* Положение от нижнего края */
+    right: 150px;
+  padding: 10px;
+  color: white;
+  background-color: #3a78a1;
+}

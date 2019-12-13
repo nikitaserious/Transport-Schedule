@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css"  href="style.css"> -->
+
+    <title>Главная</title>
+    <meta charset="utf-8" />
+
+</head>
+<body>
+  
+
+   
+<div class="jumbotron card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+  <div class="text-white text-center py-5 px-4">
+    <div>
+      <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Начните работу с приложением "Расписание Транспорта"</strong></h2>
+      <p class="mx-5 mb-5">Это приложение позволяет вам...<br>
+        1) выберите из выпадающего списка тип транспорта, чтобы посмотреть его маршрут<br>
+        2) введите название остановки и нажмите кнопку ПОИСК,  чтобы увидеть весь транспорт, идущий на этой остановке<br>
+        3) Кнопку "для админа" лучше не трогать
+
+      </p>
+      <div class="dropdown">
+  <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Вид транспорта
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="http://localhost:3000/bus/bus">Автобус</a>
+    <a class="dropdown-item" href="http://localhost:3000/bus/trol">Троллейбус</a>
+    <a class="dropdown-item" href="http://localhost:3000/bus/tram">Трамвай</a>
+  </div>
+</div><br><br>
+<form action="./search" method="POST">
+            <input type="text" name="name" placeholder="Название остановки"/><br><br><br>
+            <input type="submit" value="ПОИСК"/> 
+        </form>
+      
+
+    </div><br><br>
+    <a 
+                  class="btn btn-primary aqua-gradient " href="/login" role="button">Вход для админа</a>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+<html>

@@ -1,0 +1,9 @@
+{
+    "db": {
+      "host": "ec2-79-125-4-72.eu-west-1.compute.amazonaws.com",
+      "name": "d3m7sgq1ell2k2",
+      "user": "esjgwndazsiovn",
+      "password": "35e8f9e17d0479d140a900d54b77efd4d8caf5e7b7fccf40ba0bdbeb9b048339",
+      "dialect": "postgres"
+    }
+  }
